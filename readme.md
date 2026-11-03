@@ -49,7 +49,8 @@ diploma/
 │   ├── control_panel.py
 │   ├── canvas_panel.py
 │   ├── results_panel.py
-│   └── animation_panel.py
+│   ├── animation_panel.py
+│   └── charts_window.py        # Вікно з графіками
 ├── controllers/                # Логіка програми
 │   ├── app_controller.py
 │   ├── topology_manager.py
@@ -60,7 +61,7 @@ diploma/
 │   ├── core/
 │   │   ├── animator.py
 │   │   └── message_animator.py
-│   ├── algorithms/             # Реалізація алгоритмів (лише анімація)
+│   ├── algorithms/             # Реалізація алгоритмів
 │   │   ├── base_algorithm.py
 │   │   ├── sorting/            # bubble.py, quick.py, shell.py
 │   │   ├── matrix/             # cannon.py, fox.py, ribbon.py
@@ -69,10 +70,8 @@ diploma/
 │   │   └── matrix_vector/      # horizontal.py
 │   └── factories/
 │       └── algorithm_factory.py
-├── models/
-│   └── time_models.py          # Математична модель
-└── charts/
-    └── charts_window.py        # Вікно з графіками
+└── models/
+    └── time_models.py          # Математична модель
 ```
 
 ## 📐 Математична модель
